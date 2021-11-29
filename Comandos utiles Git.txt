@@ -1,0 +1,50 @@
+Comando principales en Git
+
+1 Creación en GitHub del Repo Remoto
+
+2 Inicialización del repo local vacío
+		git init 
+
+3 Ver configuración inicial
+		git config --list
+
+4 Vincular repo remoto con repo local
+		git remote add origin "url"
+
+5 Agregar identidad
+		git config user.name "poner su username"
+		git config user.email "poner su mail"
+
+6 Crear Access Token en GitHub
+
+7 Agregar Token a repo local
+		git config user.password "poner su token"
+		
+8 Agregado de archivos
+		agregar archivos en la carpeta local
+		
+9 Agregado de archivos al stage de Git
+		git add .
+
+10 Agregado de información al paquete 
+		git commit -m "mensaje"
+		
+11 Agregado al repo remoto
+		git push origin master
+		
+12 Actualizar repo local
+		git pull origin master
+
+
+TRABAJANDO EN OTRA MÁQUINA
+13 Clonado de repositorio
+		git clone "url"
+
+14 Creacion de Branch
+		git checkout -b nombreRamaNueva
+		
+15 Ver branchs
+		git branch
+		
+16 Cambio de rama
+		git checkout nombreRama
